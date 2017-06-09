@@ -1,0 +1,44 @@
+.retina{
+	height: 30px;
+	width: 2px;
+	background-color: red;
+	transform-origin: 0% 100%;
+	display: inline-block;
+	margin-top: 10px;
+}
+.right-lid, .left-lid{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: black;
+}
+.retina-circle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	left: -13px;
+}
+.face{
+	height: 300px;
+	width: 600px;
+	border: 10px solid tomato;
+	background-color: #3CB371;
+	border-radius: 50% 50% 30% 30%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.left-eye, .right-eye{
+	height: 80px;
+	width: 200px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff;
+}
